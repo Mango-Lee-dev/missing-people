@@ -6,6 +6,7 @@ import { Search } from "./pages/search";
 import { Resources } from "./pages/resources";
 import { SuccessStories } from "./pages/success-stories";
 import { Layout } from "./components/layout";
+import { Login } from "./pages/login";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/search" element={<Search />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/success-stories" element={<SuccessStories />} />
+        <Route path="/login" element={<Login />} />
         <Route path="*" element={<div>Not Found</div>} />
       </Routes>
     </Layout>
