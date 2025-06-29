@@ -7,6 +7,7 @@ import { Resources } from "./pages/resources";
 import { SuccessStories } from "./pages/success-stories";
 import { Layout } from "./components/layout";
 import { Login } from "./pages/login";
+import { Analysis } from "./pages/analysis";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/resources" element={<Resources />} />
         <Route path="/success-stories" element={<SuccessStories />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/analysis" element={<Analysis />} />
         <Route path="*" element={<div>Not Found</div>} />
       </Routes>
     </Layout>
