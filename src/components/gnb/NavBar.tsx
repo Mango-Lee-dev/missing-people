@@ -76,6 +76,16 @@ const Navbar = () => {
               >
                 커뮤니티
               </Link>
+              <Link
+                to="/analysis"
+                className={`text-gray-600 hover:text-blue-600 hover:border-b-2 hover:border-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200 ${
+                  pathName === "/analysis"
+                    ? "text-blue-600 border-b-2 border-blue-600"
+                    : ""
+                }`}
+              >
+                분석 및 통계
+              </Link>
             </div>
           </div>
 

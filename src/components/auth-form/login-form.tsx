@@ -34,7 +34,7 @@ export const LoginForm = ({
       <div className="max-w-md w-full mx-auto p-6 bg-white rounded-lg border border-gray-300">
         <h2 className="text-2xl font-bold mb-6 text-center">로그인</h2>
         <form onSubmit={handleSubmit}>
-          <div className="mb-4">
+          <div className="mb-2">
             <label
               htmlFor="email"
               className="block mb-2 text-sm font-medium text-gray-700"
